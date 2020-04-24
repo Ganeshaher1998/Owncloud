@@ -1,5 +1,32 @@
 # Owncloud
-Using docker and docker-compose try to configure OwnCloud with OpenOffice
+Using docker and docker-compose try to configure OwnCloud with OnlyOffice.
+
+What is OwnCloud?
+OwnCloud is open-source software, that allows you to run a personal cloud file storage service. It has features that are comparable to other cloud storage services such as Dropbox.
+The OwnCloud server software can be installed free of charge on Linux, and the client software can be installed on computers running Windows, OS X, or Linux. Mobile apps are also available for Android and iOS.
+
+What is OnlyOffice?
+ONLYOFFICE Document Server is a free collaborative online office suite comprising viewers and editors for texts, spreadsheets and presentations, fully compatible with Office Open XML formats: .docx, .xlsx, .pptx and enabling collaborative editing in real time.
+ONLYOFFICE Document Server contains the following components:
+•	server - the backend server software layer which is the base for all other components of ONLYOFFICE Document Server.
+•	core - server core components of ONLYOFFICE Document Server which enable the conversion between the most popular office document formats (DOC, DOCX, ODT, RTF, TXT, PDF, HTML, EPUB, XPS, DjVu, XLS, XLSX, ODS, CSV, PPT, PPTX, ODP).
+•	sdkjs - JavaScript SDK for the ONLYOFFICE Document Server which contains API for all the included components client-side interaction.
+•	web-apps - the frontend for ONLYOFFICE Document Server which builds the program interface and allows the user to create, edit, save and export text, spreadsheet and presentation documents using the common interface of a document editor.
+•	dictionaries - dictionaries of various languages used for spell checking in ONLYOFFICE Document Server.
+•	sdkjs-plugins - the add-ons for ONLYOFFICE Document Server used for the developers to add specific functions to the editors which are not directly related to the OOXML format.
+
+What Is Docker Compose?
+Docker Compose is used to run multiple containers as a single service. For example, suppose you had an application which required NGINX and MySQL, you could create one file which would start both the containers as a service without the need to start each one separately.
+With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration and it will work in all environments for example: production, staging, development, testing, as well as CI workflows.  
+Using Compose is basically a three-step process:
+1.	Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
+
+
+2.	Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
+
+
+3.	Run docker-compose up and Compose starts and runs your entire app.
+
 
 Installation And Configuration Of OwnCloud And Only Office Using Docker Compose :
 prerequisites:
