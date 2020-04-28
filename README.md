@@ -1,4 +1,11 @@
 # Owncloud
+
+
+
+Checkout Output on LinkedIn : https://www.linkedin.com/posts/ganesh-m-aher-323644157_righteducation-docker-vimaldaga-activity-6659652169819656192-Ed20
+
+
+
 Using docker and docker-compose try to configure OwnCloud with OnlyOffice.
 
 What is OwnCloud?
